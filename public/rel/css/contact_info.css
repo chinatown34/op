@@ -1,0 +1,139 @@
+.contact_info {position: relative; height: 208px; margin-bottom: 58px}
+.contact_info .logo { float: left; margin: 25px 33px 0 0; width: 176px;}
+.contact_info .support_info { float: left; margin-top: 80px; }
+.contact_info .support_info .phone { float: left; margin-right: 33px; position: relative; min-width: 176px;}
+.contact_info .support_info .phone.last {margin-right: 0}
+.contact_info .support_info .phone:last-child {margin-right: 0}
+.contact_info .support_info .phone.comers { margin-right: 33px;}
+.contact_info .support_info .phone .phone_header { padding-bottom: 6px; }
+.contact_info .support_info .phone .phone_header a, .contact_info .support_info .sc .phone_header a { color: #243e46; font-size: 10px; text-transform: uppercase; text-decoration: none; border-bottom: 1px dotted; font-weight: bold; }
+.contact_info .support_info .phone .support_phone { color: #000; font-size: 24px; }
+.contact_info .support_info .phone .support_phone a { text-decoration: none; color: #000; cursor: default; }
+.contact_info .support_info .phone .support_phone sup { color: #727272; font-size: 12px; }
+.contact_info .support_info .phone .shedule { color: #727272; font-size: 10px; text-transform: uppercase; }
+.contact_info .support_info .phone .shedule-ny { color: #ff0000; font-weight: bold; font-size: 10px; text-transform: uppercase; }
+.contact_info .support_info .sc { float: left; position: relative; padding: 2px 5px; border-radius: 3px; margin: -1px 0 0 51px; }
+.contact_info .support_info .sc:hover { background: #a1c83b; border: 3px solid #a1c83b; margin: -4px 0 0 48px; }
+.contact_info .support_info .sc.en:hover { margin: -4px 0 0 -3px; }
+.contact_info .support_info .sc .phone_header { float: left; padding-right: 10px; }
+
+.contact_info .support_info .sc .status { background: #83c11f; width: 5px; height: 5px; border-radius: 3px; float: right; margin-top: 4px; }
+.contact_info .support_info .sc:hover .status { background: #3c555a; }
+.contact_info .support_info .sc .social_nets { display: none; box-shadow: 0 0px 25px #5b8f38; padding: 15px 20px; border-radius: 5px; background: #f3f3f3; background: -moz-linear-gradient(top, #fff, #e8efe3); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#e8efe3)); background: -webkit-linear-gradient(top, #fff, #e8efe3); background: -o-linear-gradient(top, #fff, #e8efe3); background: -ms-linear-gradient(top, #fff, #e8efe3); background: linear-gradient(top, #fff, #e8efe3); position: absolute; z-index: 200; top: -50px; left: 128px; }
+.contact_info .support_info .sc:hover .social_nets { display: block; }
+.contact_info .support_info .sc .social_nets .arrow { background-image: url("../img/main-page/social-nets/social_nets_bg.png"); position: absolute; width: 10px; height: 12px; top: 59px; left: -10px; }
+.contact_info .support_info .sc .social_nets ul { margin: 0; }
+.contact_info .support_info .sc .social_nets ul li { list-style: none; padding: 0 0 10px 30px; font-size: 12px; line-height: 12px; margin: 0; }
+.contact_info .support_info .sc .social_nets ul li a { color: #243e46; }
+.contact_info .support_info .sc .social_nets ul li a:hover { text-decoration: none; }
+.contact_info .support_info .sc .social_nets ul li.fb { background: url("../img/main-page/social-nets/icon_fb.png") 0 0 no-repeat; }
+.contact_info .support_info .sc .social_nets ul li.vk { background: url("../img/main-page/social-nets/icon_vk.png") 0 0 no-repeat; }
+.contact_info .support_info .sc .social_nets ul li.tw { background: url("../img/main-page/social-nets/icon_tw.png") 0 0 no-repeat; }
+.contact_info .support_info .sc .social_nets ul li.google { background: url("../img/main-page/social-nets/icon_google.png") 0 0 no-repeat; }
+.contact_info .support_info .sc .social_nets ul li.in { background: url("../img/main-page/social-nets/icon_in.png") 0 0 no-repeat; }
+.contact_info .support_info .sc .social_nets ul li.hbr { background: url("../img/main-page/social-nets/icon_hbr.png") 0 0 no-repeat; }
+.contact_info .support_info .sc .social_nets ul li.ytb { background: url("../img/main-page/social-nets/icon_ytb.png") 0 0 no-repeat; }
+.sc.en{
+    display: none;
+}
+
+.contact_info .calc_button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 337px;
+    height: 34px;
+    line-height: 36px;
+    color: #77af43;
+    font-family: 'Arial';
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #77af43;
+    border-radius: 17px;
+}
+.contact_info .calc_button:hover {
+    opacity: 0.9;
+}
+
+
+.contact_info .social_links{
+    position:absolute;
+    left: 210px;
+    bottom: 0px;
+    white-space: nowrap;
+}
+
+
+.contact_info .social_link {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 34px;
+    height: 34px;
+    margin-right: 8px;
+    background: url("../img_new/new_images/header_soc.png") no-repeat;
+}
+.contact_info .social_link.fb {
+    background-position: 0 0;
+}
+.contact_info .social_link.vk {
+    background-position: -42px 0;
+}
+.contact_info .social_link.tw {
+    background-position: -84px 0;
+}
+.contact_info .social_link.g {
+    background-position: -126px 0;
+}
+.contact_info .social_link.in {
+    background-position: -168px 0;
+}
+.contact_info .social_link.yt {
+    background-position: -210px 0;
+}
+.contact_info .social_link.h {
+    background-position: -252px 0;
+}
+.contact_info .social_link.m {
+    background-position: -294px 0;
+}
+.contact_info .social_link.gt {
+    background-position: -336px 0;
+}
+.contact_info .social_link.insta {
+    background-position: -333px 0;
+}
+
+.contact_info .social_link.fb:hover {
+    background-position: 0 -35px;
+}
+.contact_info .social_link.vk:hover {
+    background-position: -42px -35px;
+}
+.contact_info .social_link.tw:hover {
+    background-position: -84px -35px;
+}
+.contact_info .social_link.g:hover {
+    background-position: -126px -35px;
+}
+.contact_info .social_link.in:hover {
+    background-position: -168px -35px;
+}
+.contact_info .social_link.yt:hover {
+    background-position: -210px -35px;
+}
+.contact_info .social_link.h:hover {
+    background-position: -252px -35px;
+}
+.contact_info .social_link.m:hover {
+    background-position: -294px -35px;
+}
+.contact_info .social_link.gt:hover {
+    background-position: -336px -35px;
+}
+.contact_info .social_link.insta:hover {
+    background-position: -333px -35px;
+}

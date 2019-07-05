@@ -1,0 +1,4 @@
+/*Parallax*/
+/*.parallax.outer { background: transparent url('../img_new/parallax/prlx_mid.png') 70% 7% repeat-x; }
+.parallax.inner { background: transparent url('../img_new/parallax/prlx_front.png') 300% 8% repeat-x; }
+.parallax {display:none}*/

@@ -1,0 +1,114 @@
+.product-menu { color: #243e46; font-size: 18px; text-transform: uppercase; position: relative; margin: 1px 0 20px 0; }
+.product-menu-header { width: 100%; text-align: center; line-height: 15px; font-family: 'Univers Condensed Bold', Arial; }
+.product-menu ul { margin: 0; height: 50px; padding: 23px 0 17px 3px; }
+.product-menu ul li { list-style: none; float: left; margin-right: 26px; font-family: 'Univers Condensed Bold', Arial; }
+/*.product-menu ul li.pay-start { margin-right: 26px; }
+.product-menu ul li.pay-standard { margin-right: 26px; }*/
+.product-menu ul li a, .product-menu ul li span { border-radius: 5px; height: 48px; display: block; line-height: 50px; cursor: pointer; }
+.product-menu ul li a { text-decoration: none; background: #f7f7f7; border: 1px solid #fcfcfc; color: #243e46; text-shadow: 1px 0 0 #fff; box-shadow: 1px 0 20px #5b8f38; }
+.product-menu ul li span { color: #fff; background-color: #60a24d; border: 1px solid #60a24d; text-shadow: 1px 0 0 #577334; }
+.product-menu ul li.pay-start span, .product-menu ul li.pay-start a { background-repeat: no-repeat; background-position: 29px 8px; padding: 0 33px 0 71px; }
+.product-menu ul li.pay-start span { background-image: url("../img/page/product-menu/pay-start-active.png"); }
+.product-menu ul li.pay-start a { background-image: url("../img/page/product-menu/pay-start-not-active.png"); }
+
+.product-menu ul li.pay-standard span, .product-menu ul li.pay-standard a { background-repeat: no-repeat; background-position: 17px 11px; padding: 0 14px 0 59px; }
+.product-menu ul li.pay-standard span { background-image: url("../img/page/product-menu/pay-standard-active.png"); }
+.product-menu ul li.pay-standard a { background-image: url("../img/page/product-menu/pay-standard-not-active.png"); }
+
+.product-menu ul li.pay-travel span, .product-menu ul li.pay-travel a { background-repeat: no-repeat; background-position: 23px 8px; padding: 0 23px 0 74px; }
+.product-menu ul li.pay-travel span { background-image: url("../img/page/product-menu/pay-travel-active.png"); }
+.product-menu ul li.pay-travel a { background-image: url("../img/page/product-menu/pay-travel-not-active.png"); }
+
+.product-menu ul li.pay-mobile span, .product-menu ul li.pay-mobile a { background-repeat: no-repeat; background-position: 33px 10px; padding: 0 32px 0 65px; }
+.product-menu ul li.pay-mobile span { background-image: url("../img/page/product-menu/pay-mobile-active.png"); }
+.product-menu ul li.pay-mobile a { background-image: url("../img/page/product-menu/pay-mobile-not-active.png"); }
+
+.product-menu ul li.pay-foreign { margin-right: 0; }
+.product-menu ul li.pay-foreign span, .product-menu ul li.pay-foreign a { background-repeat: no-repeat; background-position: 14px 15px; padding: 0 18px 0 72px; }
+.product-menu ul li.pay-foreign span { background-image: url("../img/page/product-menu/pay-foreign-active.png"); }
+.product-menu ul li.pay-foreign a { background-image: url("../img/page/product-menu/pay-foreign-not-active.png"); }
+
+.product-menu{
+    display: none;
+}
+.inner-product-menu .product-menu{
+    display: block;
+}
+.margin-li{
+    position: relative;
+    display:none;
+    width: 10px;
+    vertical-align:middle;
+    height: 20px;
+}
+.product-menu span:after{
+    position:absolute;
+    content: "";
+    background: url("../img/product/product_pages.png") right -38px no-repeat;
+    height: 38px;
+    width: 23px;
+    display:none;
+    left: 100%;
+    top: 0px;
+}
+.inner-product-menu .product-menu-header{
+    display:none;
+}
+.inner-product-menu .margin-li{
+    display: inline-block;
+}
+.inner-product-menu .product-menu, .inner-product-menu ul, .inner-product-menu ul li{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    float:none;
+}
+.inner-product-menu ul li{
+    display:inline-block;
+    margin-right: 0px;
+}
+.inner-product-menu .product-menu ul li span{
+    position:relative;
+    background-image: none;
+    background-color: #589D44;
+    box-shadow: none;
+    padding: 13px 5px 8px 15px;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: none;
+    height:auto;
+    font-family: 'MetaPro Bold';
+    display:inline-block;
+    border: 0;
+    border-radius: 5px 0px 0px 0px;
+}
+.inner-product-menu .product-menu ul li a{
+    position:relative;
+    background-image: none;
+    box-shadow: none;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: none;
+    height:auto;
+    font-family: 'MetaPro Bold';
+    display:inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+    margin: 7px 5px 8px 15px;
+    border: 0; 
+    padding:0;   
+    border-bottom: 1px dotted;
+}
+
+.inner-product-menu .product-menu ul li a{
+    background: none;
+}
+.inner-product-menu .product-menu ul li a span{
+    background: none;
+    border-bottom: 1px dotted;
+}
+
+.inner-product-menu .product-menu span:after{
+    display:block;
+}
+

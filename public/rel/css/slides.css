@@ -1,0 +1,39 @@
+
+.whyPos_wrapper { border: 8px solid #dee3e4; margin-top: 25px; border-radius: 10px; position: relative; }
+.ie_whyPos_lft, .ie_whyPos_rght { display: none; }
+.whyPos { box-shadow: 0 1px 1px #414e61; background: #fdfdfd; background: -moz-linear-gradient(top, #fff 0%, #fdfefe 60%, #e8e9ec 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(60%,#fdfefe), color-stop(100%,#e8e9ec)); background: -webkit-linear-gradient(top, #fff 0%, #fdfefe 60%, #e8e9ec 100%); background: -o-linear-gradient(top, #fff 0%, #fdfefe 60%, #e8e9ec 100%); background: -ms-linear-gradient(top, #fff 0%, #fdfefe 60%, #e8e9ec 100%); background: linear-gradient(top, #fff 0%, #fdfefe 60%, #e8e9ec 100%); border-radius: 5px; padding: 15px 20px 35px; position: relative; margin: -2px; }
+.whyPos .h1 { font-family: 'Open Sans Bold', Arial; font-size: 20px; color: #243e46; padding-bottom: 25px; }
+.whyPos .slidesContainer { margin: 0 auto; }
+.whyPos .slidesNavigation { height: 44px; width: 22px; position: absolute; top: 40%; text-indent: -9999px; }
+.whyPos .slidesPrevious { background: url("../img/main-page/slides/arrow_left.png") no-repeat; left: 25px; }
+.whyPos .slidesNext { background: url("../img/main-page/slides/arrow_right_a.png") no-repeat; right: 25px; }
+.whyPos .content_wp { width: 865px; }
+.whyPos .block_wp { width: 168px; text-align: center; margin-right: 64px; float: left; }
+.whyPos .block_wp.ten_years img { margin-top: 6px; }
+.whyPos .block_wp.banks img { margin-top: -1px; }
+.whyPos .block_wp.pci img { margin-top: -11px; }
+.whyPos .block_wp.ru_net img { margin-top: -15px; }
+.whyPos .block_wp.ru_net .text_wp { margin-top: 4px; }
+.whyPos .block_wp.bank_systems img { margin: 26px 0 22px 0; }
+.whyPos .block_wp.euro-svyaz img { margin: 25px 0 24px 0; }
+.whyPos .block_wp.y_credit img { margin: 0px 0 7px 0; }
+.whyPos .block_wp.payment_system img { margin: 12px 0 15px 0; }
+.whyPos .block_wp.anti_fraud img { margin-top: 21px; }
+.whyPos .block_wp.threeds img { margin-top: 22px; }
+.whyPos .block_wp.server img { margin-top: 24px; }
+.whyPos .block_wp.charge_back img { margin-top: 22px; }
+.whyPos .block_wp.free_number img { margin-top: -9px; }
+.whyPos .block_wp.email_support img { margin-top: -1px; }
+.whyPos .block_wp.short_time img { margin-top: 16px; }
+.whyPos .block_wp.regular_payment img { margin-top: 5px; }
+.whyPos .block_wp.one_click img { margin-top: -10px; }
+.whyPos .block_wp.credit img { margin-top: 4px; }
+.whyPos .block_wp.key img { margin-top: -6px; }
+.whyPos .block_wp.mobile_oper img { margin-top: 5px; }
+.whyPos .block_wp.last { margin-right: 0; }
+.whyPos .text_wp { background: url("../img/main-page/slides/text_wp_bg.png") repeat-x; height: 46px; border-radius: 5px; margin-top: 20px; padding-top: 7px; color: #243e46; text-shadow: 0 -1px 0 #fff; }
+.whyPos .slidesPagination { position: absolute; right: 44%; bottom: 10px; }
+.whyPos .slidesPagination li { text-align: center; margin-right: 9px; list-style: none; float: left; }
+.whyPos .slidesPagination li a { display: block; text-decoration: none; color: #7b8081; position: relative; top: 0; background: url("../img/main-page/slides/pager.png") no-repeat; width: 16px; height: 16px; text-indent: -9999px; }
+.whyPos .slidesPagination li.slidesCurrent { }
+.whyPos .slidesPagination li.slidesCurrent a { background: url("../img/main-page/slides/pager_a.png") no-repeat; }

@@ -1,0 +1,38 @@
+.form-block { background: #a1ce4f; width: 336px; margin-bottom: 30px; font-family: Arial; border-radius: 7px; }
+.form-block .title, .form-block .h1 { text-align: center; font-size: 17px; font-family: Arial; font-weight: bold; color: #fff; display: block; margin: 0 auto; padding: 18px 0 15px; text-transform: uppercase; width: 88%; }
+.form-block .mpfblock { background: url("../img_new/new_images/form_bg.png"); padding: 30px 22px 25px 22px; z-index: 2; min-height: 328px; border-radius: 0px;position: relative; }
+.form-block .mpfblock .row { position: relative; margin-bottom: 15px; }
+.form-block .mpfblock .row:after, .form-block .mpfblock .row:before { content: ' '; clear: both; display: table; }
+.form-block .mpfblock .row.last { margin-bottom: 26px; }
+.form-block .mpfblock .row.country-wrapper { margin-bottom: 17px; }
+.form-block .mpfblock .row > div { width: 100%; margin: 0; }
+.form-block .mpfblock .row > div.country { margin-left: 11px; width: 95%; }
+.form-block .mpfblock input[type="text"] { font-size: 14px; border-radius: 5px; height: 33px; border: 1px solid #c5c7c7; padding-left: 10px; width: 279px; }
+.form-block .mpfblock .ttl { display: block; margin-bottom: 3px; color: #231f20; font-size: 14px; text-shadow: 0 -1px 0 #fff; }
+.form-block .mpfblock .country ul { list-style: none; width: 245px; margin: 0 0 0 -10px; }
+.form-block .mpfblock .country ul li { float: left; display: block; height: 25px; margin: 0 5px 0 0; }
+.form-block .mpfblock .country ul li label { padding: 0 0 0 6px; display: block; float: left; font-size: 13px; line-height: 26px; text-shadow: 0 -1px 0 #fff; }
+.form-block .mpfblock .url input[type="checkbox"], .form-block .mpfblock .country ul li input[type="radio"] { display: none; }
+
+.form-block .mpfblock #promocode_prev span { color: #a1ce4f; font-size: 14px; margin: 0 0 0 12px; border-bottom: 1px dotted #a1ce4f; display: inline-block; cursor: pointer; }
+.form-block .mpfblock #promocode.hidden { display: none; }
+.form-block .mpfblock #promocode input { margin-top:15px; }
+.form-block .mpfblock textarea { line-height: 22px; resize: none; font-size: 14px; font-family: Arial; padding: 5px 0 5px 10px; height: 23px; width: 96%; margin-top: 15px; border: 1px solid #808080; -webkit-appearance: textarea; border-radius: 3px; box-shadow: 0px 0px 3px #808080 inset; }
+.form-block .mpfblock .fbtn { margin: 32px 0 12px 0; text-align: center; }
+.form-block .mpfblock .fbtn a { display: block; width: 213px; height: 41px; background: #a1ce4f; margin: 0 auto; border-radius:41px; color: #fff; font-size: 15px; font-weight: bold; text-decoration: none; text-align: center; text-transform: uppercase; line-height: 41px; }
+.form-block .mpfblock .fbtn a:hover { background: #fff; color: #a1ce4f; border:#a1ce4f solid 4px; width: 205px; height: 33px; line-height:33px;}
+.form-block .mpfblock .fbtn a:active {background: #fff; color: #a1ce4f; border:#a1ce4f solid 4px; width: 205px; height: 33px; line-height:33px; }
+
+.form-block .form_info { z-index: 2; padding: 19px 21px; line-height: 16px; color: #fff; font-size: 13px; }
+    .form-block .form_info span{
+        display:block;
+        color: white;
+    }
+
+.form-block.inner-page { margin-top: 12px; }
+
+.form-block .mpfblock .row > div.error > span { font-size: 14px !important; color:#e25555; position: absolute; top: 0;height: 33px; line-height: 33px; background: #fff; border-radius: 4px; border: 1px solid #db8585; padding: 0 0 0 10px; width: 279px !important; }
+.form-block .row.captcha img { display: block; margin-left: auto; margin-right: auto; }
+
+.form-block.inner-page.fix {position: fixed; top: 27px; margin-top: 0}
+.form-block.inner-page.absolute {position: absolute; top: 2637px; margin-top: 0}

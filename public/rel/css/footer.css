@@ -1,0 +1,64 @@
+/* footer style */
+#footer .left_block { float: left; width: 800px; }
+#footer .main_menu { top: 15px; left: 0; }
+#footer .main_menu li { font-size: 10px; }
+.main_menu { float: left; margin: 15px 0 23px 0; }
+.main_menu li { float: left; margin: 0 1px; padding: 7px 6px 0 6px; list-style-type: none; text-transform: uppercase; font-size: 12px; font-weight: bold; }
+.mac_os .main_menu li { font-size: 11.5px; }
+.main_menu li a { color: #2b2b2b; text-decoration: none; border-bottom: 1px solid #2b2b2b; zoom: 1; }
+.main_menu li a:hover { border-bottom: 1px solid #68A83A; }
+.main_menu li.current { padding: 6px 5px 7px 5px; border: 1px solid #91bf3a; border-bottom: 1px solid #6ba83a; color: #77b044; }
+.main_menu li.current a { color: #77b044; text-decoration: none; }
+
+#footer .search_block { float: left; width: 285px; margin: 7px 0 0 0; }
+#footer .search_block input[type="text"] { padding: 3px; }
+#footer .search_block input[type="button"] { background: url("../../error/index-aspxerrorpath=-pages-azureblob.ashx.html") 1px -2px no-repeat; }
+#footer .search_block a { padding: 15px 0 0 6px; display: block; }
+
+
+#footer .certified { margin: 0 auto 30px auto; }
+#footer .certified td { padding: 0 21px; }
+#footer .certified td a { display: block; float: left; }
+#footer .certified td span { display: block; float: left; }
+#footer .certified td .mir { background: url("../img_new/new_images/footer_logo1.png") no-repeat; width: 100px; height: 29px; }
+#footer .certified td .mir:hover { background: url("../img_new/new_images/footer_logo1h.png") no-repeat; }
+#footer .certified td .mc { background: url("../img_new/new_images/footer_logo2.png") no-repeat; width: 59px; height: 45px; }
+#footer .certified td .mc:hover { background: url("../img_new/new_images/footer_logo2h.png") no-repeat; }
+#footer .certified td .visa { background: url("../img_new/new_images/footer_logo3.png") no-repeat; width: 90px; height: 30px; }
+#footer .certified td .visa:hover { background: url("../img_new/new_images/footer_logo3h.png") no-repeat; }
+#footer .certified td .amex { background: url("../img_new/new_images/footer_logo4.png") no-repeat; width:49px; height: 49px; }
+#footer .certified td .amex:hover { background: url("../img_new/new_images/footer_logo4h.png") no-repeat; }
+#footer .certified td .din { background: url("../img_new/new_images/footer_logo5.png") no-repeat; width:135px; height: 37px; }
+#footer .certified td .din:hover { background: url("../img_new/new_images/footer_logo5h.png") no-repeat; }
+#footer .certified td .jcb { background: url("../img_new/new_images/footer_logo6.png") no-repeat; width: 51px; height: 38px; }
+#footer .certified td .jcb:hover { background: url("../img_new/new_images/footer_logo6h.png") no-repeat; }
+#footer .certified td .union { background: url("../img_new/new_images/footer_logo7.png") no-repeat; width: 63px; height: 39px; }
+#footer .certified td .union:hover { background: url("../img_new/new_images/footer_logo7h.png") no-repeat; }
+#footer .certified td .pci { background: url("../img_new/new_images/footer_logo8.png") no-repeat; width: 136px; height: 41px; }
+#footer .certified td .pci:hover { background: url("../img_new/new_images/footer_logo8h.png") no-repeat; }
+#footer .certified td .ver_visa { background: url("../img/page/wercool/verifiedbyvisa.gif") no-repeat; width: 74px; height: 49px; }
+#footer .certified td .ver_visa:hover { background: url("../img/page/wercool/verifiedbyvisa_on.gif") no-repeat; }
+#footer .certified td .secure_mc { background: url("../img/page/wercool/mastercardsecurecode.gif") no-repeat; width: 95px; height: 49px; }
+#footer .certified td .secure_mc:hover { background: url("../img/page/wercool/mastercardsecurecode_on.gif") no-repeat; }
+#footer .cont { position: relative; height: 160px; border-top: 1px solid #c3c7b7; }
+#footer .cont .pos { margin: 0 60px 0 8px; float: left; }
+#footer .cont .pos span { display: block; margin-bottom: 10px; padding-top: 21px; }
+#footer .search { }
+#footer .search div.float { float: left; padding-right: 5px; }
+#footer .search input.searchInput { padding: 1px 0 1px 3px; width: 232px; }
+#footer .search span { font-size: 11px; }
+#footer .cont .runet_award { position: absolute; right: 6px; top: 39px; }
+#footer .cont .mpa { position: absolute; right: 122px; top: 40px; }
+#footer .left_block { float: left; width: 800px; }
+.footer-slogan{
+    color: #3a3a3a;
+    font-size: 30px;
+    font-family: "ProximaNova-Extrabld";
+    margin: 44px 0 30px;
+    padding-bottom: 38px;
+    text-align:center;
+    border-bottom: 1px solid #efeff2;
+}
+.footer-slogan.inner{
+    margin-top:0px;
+}

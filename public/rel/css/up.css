@@ -1,0 +1,19 @@
+.modern-upbutton { height: 100%; position: fixed; left: 0; top: 0; width: 100px; margin-right: 50px; box-sizing: border-box; transition: background .5s; cursor: pointer; display: none; }
+.modern-upbutton > div { transition: background .5s; position: relative; left: 0; top: 0; height: 100%; width: 95px; }
+.modern-upbutton:hover > div { background: rgba(255,255,255,0.5); }
+.modern-upbutton .subscripted-arrow { padding-left: 20px; color: #a1ce4f; position: absolute; width: 100%; top: 12px; left: 0; font-size: 15px; }
+.modern-upbutton .modern-upbutton-disable { display: none; color: rgb(189, 189, 189); font-size: 10px; position: absolute; width: 100%; bottom: 20px; left: 0; text-align: center; transition: display .5s; }
+.modern-upbutton .modern-upbutton-disable span { border-bottom: 1px dashed rgb(189, 189, 189); }
+.modern-upbutton:hover .modern-upbutton-disable { display: block; }
+.modern-upbutton .modern-upbutton-disable span:hover { color: #0079C2; border-color: #0079C2; }
+.modern-upbutton[data-scroll=down] .subscripted-arrow span { display: none; }
+.modern-upbutton[data-scroll=up] .subscripted-arrow { background: url("../img/trns_info_close.png") 73px 5px no-repeat; }
+.modern-upbutton[data-scroll=down] .subscripted-arrow { background: url("../img/trns_info_close.png") 73px 5px no-repeat; height: 10px; }
+.modern-upbutton-was-disabled { display: none !important; }
+.modern-upbutton.its-a-mobile-modern-upbutton > div { width: 50px; background: #f2f2f2; z-index: 100; }
+.modern-upbutton.its-a-mobile-modern-upbutton > div:active { background: rgb(219, 219, 219); }
+.modern-upbutton.its-a-mobile-modern-upbutton .subscripted-arrow { height: 20px; padding: 0; }
+.modern-upbutton.its-a-mobile-modern-upbutton .subscripted-arrow span { display: none; }
+.modern-upbutton.its-a-mobile-modern-upbutton[data-scroll=down] .subscripted-arrow { background: url("../img/trns_info_close_a.png") 73px 5px no-repeat; height: 20px; padding: 0; }
+.modern-upbutton.its-a-mobile-modern-upbutton[data-scroll=up] .subscripted-arrow { background: url("../img/trns_info_close_a.png") 73px 5px no-repeat; }
+.modern-upbutton.its-a-mobile-modern-upbutton .modern-upbutton-disable { display: block; }

@@ -1,0 +1,31 @@
+.product_block .product_menu_wrapper { margin-top: 35px; position: relative; }
+.product_block .product_menu { margin-left: 3px; }
+.product_block .product_menu li { list-style: none; float: left; position: relative; box-shadow: 1px 1px 20px #5b8f38; border-radius: 5px; margin-right: 26px; width: 180px; }
+.product_block .product_menu li .most_popular { width: 104px; height: 105px; background: url("../img/main-page/product-menu/most_popular.png") no-repeat; position: absolute; top: -3px; left: -3px; }
+.product_block .product_menu li > a { display: block; height: 220px; height: 210px \0/ IE9; width: 144px; padding: 15px 18px 5px; text-align: center; /*background: #fff;*/ background: -moz-linear-gradient(top, #fff, #fbfbfb); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#fbfbfb)); background: -webkit-linear-gradient(top, #fff, #fbfbfb); background: -o-linear-gradient(top, #fff, #fbfbfb); background: -ms-linear-gradient(top, #fff, #fbfbfb); background: linear-gradient(top, #fff, #fbfbfb); -pie-background: linear-gradient(#fff, #fbfbfb); border-radius: 5px; text-decoration: none; z-index: 200; clear: both; }
+.product_block .product_menu li:hover, .product_block .product_menu li.active { border: 4px solid #589d44; margin: -4px 22px -4px -4px; }
+.product_block .product_menu li.last { margin-right: 0; }
+.product_block .product_menu li .img { width: 72px; height: 78px; margin: 0 0 0 47px; }
+.product_block .product_menu li .img.pay_start { background: url("../img/main-page/product-menu/pay_start.png") no-repeat; }
+.product_block .product_menu li.active .img.pay_start { background: url("../img/main-page/product-menu/pay_start_a.png") 0 30px no-repeat; }
+.product_block .product_menu li .img.pay_standard { background: url("../img/main-page/product-menu/pay_standard.png") no-repeat; }
+.product_block .product_menu li.active .img.pay_standard { background: url("../img/main-page/product-menu/pay_standard_a.png") 0 36px no-repeat; }
+.product_block .product_menu li .img.pay_travel { background: url("../img/main-page/product-menu/pay_travel.png") no-repeat; margin-left: 44px; }
+.product_block .product_menu li.active .img.pay_travel { background: url("../img/main-page/product-menu/pay_travel_a.png") 0 30px no-repeat; }
+.product_block .product_menu li .img.pay_mobile { background: url("../img/main-page/product-menu/pay_mobile.png") no-repeat; margin-left: 53px; }
+.product_block .product_menu li.active .img.pay_mobile { background: url("../img/main-page/product-menu/pay_mobile_a.png") 0 29px no-repeat; }
+.product_block .product_menu li .img.pay_foreign { background: url("../img/main-page/product-menu/pay_foreign.png") no-repeat; margin-left: 31px; }
+.product_block .product_menu li.active .img.pay_foreign { background: url("../img/main-page/product-menu/pay_foreign_a.png") 0 42px no-repeat; }
+.product_block .product_menu li .h2 { font-family: 'Univers Condensed Bold', Arial; font-size: 18px; text-decoration: none; text-transform: uppercase; padding: 13px 0; color: #243e46; }
+.product_block .product_menu li:hover .h2, .product_block .product_menu li.active .h2 { color: #161616; }
+.product_block .product_menu li p { color: #323232; text-align: left; font-size: 13px; }
+.product_block .product_menu li .more_info { display: none; background: #589d44; border-radius: 0 0 5px 5px; width: 152px; padding: 15px 18px; position: absolute; z-index: 100; top: 237px; margin: 0 0 0 -4px; }
+.product_block .product_menu li .more_info .ie_bg { display: none; }
+.product_block .product_menu li .more_info p { padding-bottom: 22px; }
+.product_block .product_menu li .more_info p, .product_block .product_menu li .more_info a { color: #fff; text-shadow: 0 -1px 0 #253e46; }
+.product_block .product_menu li .more_info a { text-decoration: none; border-bottom: 1px dotted; }
+.product_block .product_menu li .more_info .more_link { text-align: center; padding: 0 0 10px; }
+.product_block .product_menu li .more_info .more_link a { background: url("../img/main-page/product-menu/more_btn.png") no-repeat; display: block; width: 139px; height: 30px; border: 0; }
+.product_block .more { clear: both; margin-top: 20px; position: relative; }
+.product_block .more > div { background: url("../img/main-page/product-menu/more.png") right no-repeat; width: 70px; padding-right: 19px; margin: 0 auto; }
+.product_block .more > div a { text-transform: uppercase; color: #243e46; text-decoration: none; border-bottom: 1px dotted; }

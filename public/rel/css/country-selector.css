@@ -1,0 +1,11 @@
+.country-selector { list-style: none; width: 240px; margin: 0; }
+.country-selector li { margin: 0; padding: 0; }
+.country-selector li .russia { display: block; margin-right: 12px; }
+.country-selector li label { padding: 0 0 0 5px; display: block; float: left; font-size: 13px; }
+.country-selector li label { line-height: 22px; }
+.country-selector input[type="checkbox"], .country-selector li input[type="radio"] { display: none; }
+.country-selector input[type="checkbox"] + label, .country-selector li input[type="radio"] + label { cursor: pointer; }
+.country-selector input[type="checkbox"] + label::before { content: ""; display: block; float: left; height: 18px; width: 19px; margin: 3px 6px 0 1px; border: #c9cbcb solid 1px; background: #fff; }
+.country-selector li input[type="radio"] + label::before { content: ""; display: block; float: left; height: 18px; width: 18px; border-radius:18px; margin: 3px 6px 0 1px; border: #c9cbcb solid 1px; background: #fff; }
+.country-selector input[type="checkbox"]:checked + label::before { background: #a1ce4f; margin: 2px 5px 0 0; border: #fff solid 2px; }
+.country-selector li input[type="radio"]:checked + label::before { background: #a1ce4f; margin: 2px 5px 0 0; border: #fff solid 2px; }

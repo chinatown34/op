@@ -1,0 +1,10 @@
+#feedback-captcha-item .row.captcha {
+    margin-bottom: 15px;
+}
+
+#feedback-captcha-item .row input[type=text] {
+    height: 24px;
+    padding-left: 5px;
+    width: 315px;
+    margin-left: 200px
+}

@@ -1,0 +1,391 @@
+.calculator-block {
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+}
+.calculator-blur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 20;
+}
+.calculator {
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+    width: 337px;
+    height: 34px;
+    line-height: 36px;
+    color: #a1ce4f;
+    font-family: 'Arial';
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #a1ce4f;
+    border-radius: 17px;
+}
+.calculator:hover {
+    color: #fff;
+    background: #a1ce4f;
+}
+.calculator-form {
+    width: 555px;
+    background: #a1ce4f;
+    position: absolute;
+    font-family: 'Open Sans', Arial;
+    z-index: 999;
+    top: 200px;
+    left: 35%;
+    border-radius: 7px;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.2)
+}
+.calculator-form .title {
+    text-align: left;
+    font-size: 17px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-family: "ProximaNova-Bold";
+    text-transform: uppercase;
+    width: 90%;
+}
+.calculator-form .close {
+    position: absolute;
+    background: url("../img/page/calculator/close.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    right: 25px;
+    top: 17px;
+    cursor: pointer;
+}
+.calculator-form p {
+    font-size: 13px;
+    line-height: 19px;
+    color: #323232;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: normal;
+    padding-bottom: 17px;
+}
+.calculator-form .calc_block {
+    margin-top: 25px;
+}
+.calculator-form .calc_block .ttl {
+    color: #19343c;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: bold;
+    font-family: "ProximaNova-Bold";
+    font-size: 13px;
+    display: block;
+    margin-bottom: 3px;
+}
+.calculator-form .mpfblock {
+    background: url("../img/page/calculator/form_bg_slice.png");
+    padding: 25px 30px;
+    z-index: 2;
+    min-height: 300px;
+    border-radius: 0px;
+    position: relative;
+}
+.calculator-form .mpfblock .country {
+    clear: both;
+    float: none;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.calculator-form .column {
+    display:inline-block;
+    width: 215px;
+}
+.column.column-left {
+    margin-right: 40px;
+}
+.calculator-form .mpfblock .calc_btn {
+    margin-top: 45px;
+    text-align: center;
+}
+.calculator-form .mpfblock .calc_btn a {
+    display: inline-block;
+    width: auto;
+    padding: 0 20px;
+    height: 41px;
+    background: #a1ce4f;
+    margin: 0 auto;
+    border-radius: 41px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 41px;
+}
+.calculator-form .mpfblock .calc_btn a:hover {
+    background: #fff;
+    color: #a1ce4f;
+    border: #a1ce4f solid 4px;
+    padding: 0 16px;
+    height: 33px;
+    line-height: 33px;
+}
+.calculator-form-info {
+    padding: 15px 30px 15px;
+    color: #fff;
+    font-size: 13px;
+    z-index: 2;
+}
+.calculator-form-info a {
+    color: #fff;
+}
+.calc_results {
+    position: relative;
+}
+.calculator-form .gds_attention {
+    visibility: hidden;
+    color: rgb(224, 89, 89);
+    position: absolute;
+    top: 135px;
+}
+.gds_attention,
+x:-moz-any-link {
+    top: 137px !important;
+}
+.blured .top_menu,
+.blured .container {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    filter: progid: DXImageTransform.Microsoft.Blur(pixelRadius=3);
+}
+.btn:hover,
+.btn:active {
+    color: #fff;
+}
+.fbtn {
+    margin: 35px 16px 35px 0;
+    text-align: center;
+}
+.fbtn a {
+    display: block;
+    width: 213px;
+    height: 41px;
+    background: url("../img/page/buttons/form_button.png") no-repeat;
+    margin: 0 auto;
+}
+.fbtn a:hover {
+    background: url("../img/page/buttons/form_button_h.png") no-repeat;
+}
+.fbtn a:active {
+    background: url("../img/page/buttons/form_button_a.png") no-repeat;
+}
+.form_info {
+    z-index: 2;
+    padding: 19px 21px 19px 21px;
+    color: #fff;
+    font-size: 13px;
+}
+.mpfblock .btype,
+.mpfblock .company_name {
+    float: left;
+}
+.mpfblock .bdescription {
+    margin: 8px 0 0 15px;
+    *margin-top: 0;
+    border: 1px solid #edefea;
+}
+.mpfblock .bdescription textarea {
+    width: 573px;
+    padding-left: 3px;
+    resize: none;
+    height: 150px;
+}
+.mpfblock .cont .bottom {
+    height: 15px;
+    background: url("../../error/index-aspxerrorpath=-pages-azureblob.ashx.html") no-repeat;
+}
+.feeResults {
+    display: none;
+    position: relative;
+}
+.feeResults .outFee {
+    color: #323232;
+    font-family: 'Open Sans Bold', Arial;
+    font-size: 40px;
+}
+.feeResults .fee_info span {
+    color: #323232;
+    font-family: 'Open Sans Bold', Arial;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 13px;
+}
+.feeResults .send_request {
+    margin: 22px 0px;
+    text-align: center;
+}
+.feeResults .send_request a {
+    display: inline-block;
+    width: auto;
+    padding: 0 20px;
+    height: 41px;
+    background: #a1ce4f;
+    margin: 0 auto;
+    border-radius: 41px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 41px;
+}
+.feeResults .send_request a:hover {
+    background: #fff;
+    color: #a1ce4f;
+    border: #a1ce4f solid 4px;
+    padding: 0 16px;
+    height: 33px;
+    line-height: 33px;
+}
+.feeResults .estimation {
+    margin-top: 35px;
+}
+.feeResults .new_calc {} .feeResults .new_calc a {
+    font-size: 14px;
+    color: #a1ce4f;
+    text-decoration: none;
+    border-bottom: 1px dotted #a1ce4f;
+    float: left;
+}
+.feeResults .new_calc a#show_rates {
+    float: right;
+}
+.calc_rates {
+    display: none;
+}
+.calc_rates .rates table {
+    margin: 0 0 6px 0;
+}
+.calc_rates .rates table th,
+.calc_rates .rates table td {
+    width: 20%;
+    position: relative;
+    padding: 5px;
+    text-align: center;
+    height: 16px;
+}
+.calc_rates .rates table th {
+    height: 30px;
+    font-size: 11px;
+}
+.calc_rates .rates table th.turnovr {
+    width: 16%;
+}
+.calc_rates .rates table tr.grey td {
+    background: #f8f8f9;
+}
+.calc_rates .rates table tr.white td {
+    background: #fff;
+}
+.calc_rates .rates table tr td {
+    font-size: 11px;
+}
+span.rur {
+    font-family: "Rubl Sign";
+    text-transform: uppercase;
+}
+span.rur span {
+    position: absolute;
+    overflow: hidden;
+    width: .45em;
+    height: 1em;
+    margin: .1ex 0 0 -.55em;
+    *position: relative;
+    *display: inline;
+    *margin: .1ex 0 0 0;
+    margin-top: .2ex \0/;
+    z-index: 2;
+}
+span.rur span:before {
+    content: '\2013';
+}
+.btn {
+    color: #579d44;
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: bold;
+}
+.calculator-form span.red {
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    margin: 10px 0 10px;
+    position: relative;
+    display: block;
+}
+.calculator-form span.exlamation {
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    position: relative;
+    display: block;
+}
+.rate-item {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 10px;
+    font-style: italic;
+    color: #231f20;
+    line-height: 13px;
+    border-bottom: #231f20 dotted 1px;
+    cursor: pointer;
+}
+.rate-item.active {
+    color: #fff;
+    background: #a1ce4f;
+    border: 0;
+    padding: 5px 10px;
+    margin: 0px;
+}
+.rates-items {
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+.calc_rates_block {
+    display: none;
+}
+.calc_rates_block.active {
+    display: block;
+}
+.calc-table-item {
+    display: none;
+}
+.calc-table-item.active {
+    display: block;
+}
+.ecommerce {
+    white-space: nowrap;
+}
+.ecommerce table {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 0 4% 25px 0 !important;
+}
